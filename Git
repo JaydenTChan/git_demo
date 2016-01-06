@@ -1,0 +1,29 @@
+// === Configuration Commands
+git config --global user.name "JaydenTChan"
+git config --global user.email "jayden.t.chan@gmail.com"
+git config --global core.editor "gedit -w -s"
+
+// Relist your confgurations
+git config --list
+
+// === Manipulation Commands
+// Use man <command>
+
+git clone <url>			//Obtain local copy from url
+
+git branch <name>		//Create new branch
+git branch -a			//List branches
+git branch -d <name>		//Delete named branch
+git checkout <name>		//Switch branches
+
+git status			//Check staged/unstaged files
+
+git add <filename>		//Tell git to track a file
+
+git commit -a			//Commit and automatically add all tracked files.
+
+git push -u origin <name>	//Push branch to remote server
+git push			//Push after defining remote server
+
+// === Misc. Commands
+touch <filename> 		//Create new file
