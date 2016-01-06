@@ -3,6 +3,8 @@ git config --global user.name "JaydenTChan"
 git config --global user.email "jayden.t.chan@gmail.com"
 git config --global core.editor "gedit -w -s"
 
+What
+
 // Relist your confgurations
 git config --list
 
